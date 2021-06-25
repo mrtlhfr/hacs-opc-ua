@@ -1,6 +1,6 @@
 {
   "domain": "opc_ua",
-  "Version": "0.0.1",
+  "version": "0.0.1",
   "name": "OPA-UA",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/opc_ua",
