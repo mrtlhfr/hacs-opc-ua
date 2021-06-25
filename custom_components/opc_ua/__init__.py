@@ -151,7 +151,7 @@ class OpcUaHandler:
                 if attr not in ["icon"]:
                     try:
                         node.add_property(idx, attr, entity.attributes[attr])
-                    except AttributeError:
+                    except:
                         _LOGGER.error(f"OPC UA add property error: {attr}")
 
         server.start()
